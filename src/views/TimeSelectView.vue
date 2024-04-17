@@ -100,7 +100,7 @@ export default {
   align-items: center; /* 센터 정렬로 내부 아이템들 중앙 정렬 */
   max-width: 400px; /* 카드의 최대 너비를 400px로 설정 */
   margin: 30px auto 0;
-  /* padding-bottom: 80px; 하단 고정 버튼과 겹치지 않도록 80px 하단 여백 설정 */
+  padding-bottom: 80px; 
 }
 
 /* 개별 이벤트 카드 스타일링 */
@@ -112,7 +112,9 @@ export default {
   border-radius: 10px; /* 모서리를 둥글게 처리 */
   cursor: pointer; /* 마우스 오버 시 포인터 모양 변경 */
   background-color: transparent; /* 배경색을 투명으로 설정 */
-  transition: border-color 0.3s; /* 테두리 색상 변경에 대한 0.3초 동안의 애니메이션 효과 */
+  transition: border-color 0.1s; /* 테두리 색상 변경에 대한 0.3초 동안의 애니메이션 효과 */
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 /* 선택된 카드 스타일링 */
