@@ -64,6 +64,7 @@ main {
   align-items: center; /* 세로 중심선을 기준으로 요소들을 중앙 정렬 */
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 20px;
   text-align: center; /* 텍스트를 중앙 정렬 */
 }
 
