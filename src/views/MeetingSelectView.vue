@@ -98,7 +98,9 @@ export default {
 </script>
 
 <style scoped>
-/* 스타일 코드는 원래 버전대로 유지됩니다 */
+.events-container {
+  margin-bottom: 40px;
+}
 .events-list {
   display: flex;
   flex-direction: column;

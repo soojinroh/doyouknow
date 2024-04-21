@@ -192,6 +192,7 @@ export default {
   align-items: center;
   padding: 20px;
   color: white;
+  margin-bottom: 40px;
 }
 
 .content {
