@@ -6,7 +6,7 @@
       당신과 취향이 맞는 이들을 찾아드려요.
     </div>
 
-    <BottomButton @click="goToSelectView">신청하기</BottomButton>
+    <BottomButton @button-click="goToPersonalitySelectView">신청하기</BottomButton>
   </div>
 </template>
 
@@ -21,12 +21,12 @@ export default {
   setup() {
     const router = useRouter();
 
-    const goToSelectView = () => {
-      router.push({ name: 'Select' });
+    const goToPersonalitySelectView = () => {
+      router.push({ name: 'PersonalitySelect' });
     };
 
     return {
-      goToSelectView,
+      goToPersonalitySelectView,
     };
   },
 };
@@ -44,6 +44,9 @@ export default {
   color: white;
   text-align: center;
   overflow-y: auto; /* 내부 스크롤 활성화 */
+  background-image: url('https://i.pinimg.com/564x/42/50/f4/4250f460eb08fa2d8163e4df15cc2db7.jpg'); /* 이미지 경로를 여기에 입력하세요 */
+  background-size: cover; /* 이미지가 전체 화면을 채우도록 설정 */
+  background-position: center; /* 이미지가 화면 중앙에 위치하도록 설정 */
 }
 
 .site-name {

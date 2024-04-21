@@ -1,6 +1,6 @@
 <template>
   <div class="fixed-footer">
-    <button class="bottom-button" @click="onClick">
+    <button class="bottom-button" @click.prevent="onClick">
       <slot></slot>
     </button>
   </div>
@@ -11,7 +11,7 @@ export default {
   name: 'BottomButton',
   methods: {
     onClick() {
-      this.$emit('click');
+      this.$emit('button-click');
     },
   },
 };

@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
 import MainView from '@/views/MainView.vue';
+import PersonalitySelectView from '@/views/PersonalitySelectView.vue';
 import PersonalInfoView from '@/views/PersonalInfoView.vue';
-import SelectView from '@/views/SelectView.vue';
-import TimeSelectView from '@/views/TimeSelectView.vue';
+import MeetingSelectView from '@/views/MeetingSelectView.vue';
 import ConfirmView from '@/views/ConfirmView.vue';
+
 
 const routes = [
   {
@@ -19,20 +20,20 @@ const routes = [
     component: PersonalInfoView,
   },
   {
-    path: '/select',
-    name: 'Select',
-    component: SelectView,
+    path: '/personality-select',
+    name: 'PersonalitySelect',
+    component: PersonalitySelectView,
   },
   {
-    path: '/time-select',
-    name: 'TimeSelect',
-    component: TimeSelectView,
+    path: '/meeting-select',
+    name: 'MeetingSelect',
+    component: MeetingSelectView,
   },
   {
     path: '/comfirm',
     name: 'Confirm',
     component: ConfirmView,
-  },
+  }
 ];
 
 const router = createRouter({

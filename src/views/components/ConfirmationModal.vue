@@ -42,6 +42,7 @@ export default {
   border-radius: 10px; /* 모서리를 둥글게 처리 (반경 10px) */
   max-width: 400px; /* 최대 너비를 400px로 제한 */
   text-align: center; /* 텍스트 중앙 정렬 */
+  color: black;
 }
 
 h2 {
