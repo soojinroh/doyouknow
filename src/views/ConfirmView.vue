@@ -23,7 +23,9 @@
         <p>취소를 원하시면 @doyouknow.social 인스타그램 계정으로 DM을 보내주세요.</p>
       </div>
       <div class="confirmation-notice">
-        <p>신청 확정은 1~2일 내로 문자로 통보됩니다.</p>
+        <p>신청 확정은 1~2일 내로 문자로 안내드립니다.</p>
+        <p>정확한 모임 장소 및 모임 안내는 모임 1일 전에 문자로 연락드립니다.</p>
+        <p>문의사항은 @doyouknow.social 인스타그램 계정으로 DM을 보내주세요.</p>
       </div>
     </div>
     <BottomButton @button-click="showConfirmationModal">신청 완료</BottomButton>
