@@ -144,15 +144,13 @@ export const categories = [
   },
   {
     name: 'hangoutStyle',
-    description: '당신은 친구들을 만나면 주로 어떻게 시간을 보내나요?',
+    description: '당신은 여가시간을 보통 어떻게 보내나요?',
     options: [
-      {name: '집에서 놀기'},
+      {name: 'I'm 집돌이/집순이'},
       {name: '스포츠'},
-      {name: '맛집/카페 탐방'},
-      {name: '클럽'},
-      {name: '술 마시기'},
-      {name: '영화/전시회 보기'},
-      {name: '잘 만나지 않음'},
+      {name: '맛집/카페'},
+      {name: '술술술'},
+      {name: '영화/전시회'},
     ]
   },
   {
