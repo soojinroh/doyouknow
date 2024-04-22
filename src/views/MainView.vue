@@ -2,9 +2,10 @@
   <div class="main-screen">
     <div class="site-name">DoYouKnow</div>
     <div class="description">
-      매주 토요일 오후 1시, 새로운 사람 6명과 맛있는 식사 어떠세요? 알고리즘으로
-      당신과 취향이 맞는 이들을 찾아드려요.
+      <h1>퇴근 후, 결이 맞는 사람들과 함께하는</h1>
+      <h1>시크릿 다이닝</h1>
     </div>
+    
 
     <BottomButton @button-click="goToPersonalitySelectView">신청하기</BottomButton>
   </div>
