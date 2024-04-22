@@ -25,7 +25,7 @@
         </select>
       </div>
       <div class="form-group">
-        <label for="age">나이</label>
+        <label for="age">(만) 나이</label>
         <input type="number" id="age" placeholder="Your Age" v-model="rawAge" @blur="validateAge">
         <span v-if="ageError" style="color: red;">{{ ageError }}</span>
       </div>
