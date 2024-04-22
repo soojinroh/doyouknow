@@ -106,18 +106,21 @@ export const categories = [
     ]
   },
   {
-    name: 'conversationTheme',
-    description: '당신이 주로 대화하는 주제는 무엇인가요?',
+    name: 'dailyRecord',
+    description: '당신은 어떻게 일상을 기록하나요?',
     options: [
-      {name: '일상 이야기'},
-      {name: '취미 이야기'},
-      {name: '좋아하는 것 이야기'},
-      {name: '영화/드라마 이야기'},
-      {name: '음악 이야기'},
-      {name: '책 이야기'},
-      {name: '연애 이야기'},
-      {name: '정치/사회 이야기'},
-      {name: '자기계발 이야기'},
+      { name: '내 모든 순간은 인스타에 남긴다' },
+      { name: '혼자 보는 일기장에 적는다' },
+      { name: '기록하지 않는다' },
+    ]
+  },
+  {
+    name: 'conversationTheme',
+    description: '당신이 주로 이야기하기 좋아하는 것은 무엇인가요?',
+    options: [
+      { name: '일상/취미 이야기' },
+      { name: '정치/사회 이야기' },
+      { name: '자기계발 이야기' },
     ]
   },
   {
@@ -133,20 +136,15 @@ export const categories = [
     name: 'travelStyle',
     description: '당신은 여행을 가면 주로 어떤 활동을 하나요?',
     options: [
-      {name: '명소 관광'},
-      {name: '맛집 탐방'},
-      {name: '쇼핑'},
-      {name: '힐링'},
-      {name: '액티비티'},
-      {name: '휴식'},
-      {name: '취향 디깅'}
+      {name: '어렵게 왔으니 뽕을 뽑겠다, 다 보고 간다'},
+      {name: '로컬스럽게 여유롭게 시간을 보낸다'},
     ]
   },
   {
     name: 'hangoutStyle',
     description: '당신은 여가시간을 보통 어떻게 보내나요?',
     options: [
-      {name: 'I'm 집돌이/집순이'},
+      {name: 'I\'m 집돌이/집순이'},
       {name: '스포츠'},
       {name: '맛집/카페'},
       {name: '술술술'},
