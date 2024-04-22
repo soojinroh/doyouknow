@@ -169,7 +169,8 @@ export default {
         personalInfoStore.clear();
         meetingStore.clear();
         personalityStore.clear();
-        router.push({ name: "Main" });
+        location.reload();
+        window.location.href = '/';
       } catch (error) {
         console.error("Error during transaction: ", error);
         alert('신청 처리 중 오류가 발생했습니다.');

@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="header">
-      <h1>{{ currentCategory.name }}</h1>
+      <h1>{{ currentCategory.description }}</h1>
     </div>
     <section>
       <div class="category">
@@ -49,9 +49,9 @@ export default {
 
 
     const state = reactive({
-  categories: categories,
-  currentCategoryIndex: 0,
-});
+      categories: categories,
+      currentCategoryIndex: 0,
+    });
 
 
 function handleNextClick() {
