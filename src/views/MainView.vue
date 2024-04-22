@@ -44,9 +44,7 @@ export default {
   color: white;
   text-align: center;
   overflow-y: auto; /* 내부 스크롤 활성화 */
-  background-image: url('https://i.pinimg.com/564x/42/50/f4/4250f460eb08fa2d8163e4df15cc2db7.jpg'); /* 이미지 경로를 여기에 입력하세요 */
-  background-size: cover; /* 이미지가 전체 화면을 채우도록 설정 */
-  background-position: center; /* 이미지가 화면 중앙에 위치하도록 설정 */
+  
 }
 
 .site-name {

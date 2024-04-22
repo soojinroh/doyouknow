@@ -106,19 +106,6 @@ export const categories = [
     ]
   },
   {
-    name: 'hangoutStyle',
-    description: '당신은 친구들을 만나면 주로 어떻게 시간을 보내나요?',
-    options: [
-      {name: '집에서 놀기'},
-      {name: '스포츠'},
-      {name: '맛집/카페 탐방'},
-      {name: '클럽'},
-      {name: '술 마시기'},,
-      {name: '영화/전시회 보기'},
-      {name: '잘 만나지 않음'},
-    ]
-  },
-  {
     name: 'conversationTheme',
     description: '당신이 주로 대화하는 주제는 무엇인가요?',
     options: [
@@ -156,6 +143,19 @@ export const categories = [
     ]
   },
   {
+    name: 'hangoutStyle',
+    description: '당신은 친구들을 만나면 주로 어떻게 시간을 보내나요?',
+    options: [
+      {name: '집에서 놀기'},
+      {name: '스포츠'},
+      {name: '맛집/카페 탐방'},
+      {name: '클럽'},
+      {name: '술 마시기'},
+      {name: '영화/전시회 보기'},
+      {name: '잘 만나지 않음'},
+    ]
+  },
+  {
     name: 'priceRange',
     description: '당신은 모임 진행시 어느 정도 가격대의 식당을 선호하나요?',
     options: [
@@ -166,6 +166,7 @@ export const categories = [
       {name: '10만원 이하'},
       {name: '10만원 이상'},
     ]
-  }
+  },
+
   // More categories can be added here
 ];
