@@ -11,7 +11,7 @@ export const categories = [
   },
   {
     name: 'movieTaste',
-    description: '당신을 자신을 어떤 쪽에 더 가까운 사람이라고 생각하나요?',
+    description: '당신을 자신을 어떤 쪽에 더 가까운 사람이라고 생각하나요?',
     options: [
       { name: '블록버스터 영화 애호가' }, 
       { name: '예술영화/독립영화 애호가' }, 
@@ -19,8 +19,8 @@ export const categories = [
     selected: null,
   },
   {
-    name: 'smartFunny',
-    description: '당신을 자신을 어떤 쪽에 더 가까운 사람이라고 생각하나요?',
+    name: 'smartFunny',
+    description: '당신을 자신을 어떤 쪽에 더 가까운 사람이라고 생각하나요?',
     options: [
       { name: '스마트한 사람' }, 
       { name: '재미있는 사람' }, 
@@ -167,6 +167,11 @@ export const categories = [
       {name: '10만원 이상'},
     ]
   },
-
-  // More categories can be added here
 ];
+
+export function resetCategories() {
+  categories.map(category => {
+    category.selected = null;
+    return category;
+  });
+}

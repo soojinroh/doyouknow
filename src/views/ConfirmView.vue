@@ -47,7 +47,7 @@ import { usePersonalInfoStore } from '../stores/personalInfoStore';
 import { useMeetingStore } from '../stores/meetingStore';
 import { usePersonalityStore } from '../stores/personalityStore';
 import router from '@/router';
-import { categories } from '../data/categories'; // Update the path accordingly
+import { categories, resetCategories } from '../data/categories'; // Update the path accordingly
 
 export default {
   components: {
@@ -169,6 +169,7 @@ export default {
         personalInfoStore.clear();
         meetingStore.clear();
         personalityStore.clear();
+        resetCategories();
         router.push({ name: 'Main' });
       } catch (error) {
         console.error("Error during transaction: ", error);
