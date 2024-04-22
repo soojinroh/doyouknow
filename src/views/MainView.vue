@@ -2,11 +2,9 @@
   <div class="main-screen">
     <div class="site-name">DoYouKnow</div>
     <div class="description">
-      <h1>퇴근 후, 결이 맞는 사람들과 함께하는</h1>
+      <h2>퇴근 후, 결이 맞는 사람들과 함께하는</h2>
       <h1>시크릿 다이닝</h1>
     </div>
-    
-
     <BottomButton @button-click="goToPersonalitySelectView">신청하기</BottomButton>
   </div>
 </template>
