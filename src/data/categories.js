@@ -159,12 +159,10 @@ export const categories = [
     name: 'priceRange',
     description: '당신은 모임 진행시 어느 정도 가격대의 식당을 선호하나요?',
     options: [
-      {name: '2만원 이하'},
-      {name: '4만원 이하'},
-      {name: '6만원 이하'},
-      {name: '8만원 이하'},
-      {name: '10만원 이하'},
-      {name: '10만원 이상'},
+      {name: '~2만 원'},
+      {name: '2~4만 원'},
+      {name: '4~8만 원'},
+      {name: '8만 원 이상'},
     ]
   },
 ];
